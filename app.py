@@ -1,6 +1,6 @@
 # Projeto par ou ímpar
 
-x = input(float("Escolha um número: "))
+x = float(input("Escolha um número: "))
 
 def par():
     if x%2 == 0:
