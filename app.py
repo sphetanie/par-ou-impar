@@ -2,11 +2,10 @@
 
 x = float(input("Escolha um número: "))
 
-def par():
-    if x%2 == 0:
+if x%2 == 0:
         print("É par.")
 
-def impar():
-    if x%2 != 0:
-        print("É ímpar.")
+else:
+    print("É ímpar.")
+
 
